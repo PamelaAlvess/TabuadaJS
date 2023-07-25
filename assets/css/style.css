@@ -1,0 +1,51 @@
+/* Define o fundo branco para o corpo do documento */
+body{
+
+    background-color:#fff;
+}
+
+/* Define um contêiner para a tabuada com algumas propriedades de layout */
+.content-tabuada {
+
+    width: 100%;
+    text-align: center;
+    max-width: 300px;
+    background-color: #dee2e6;
+    margin: auto;
+    padding: 20px;
+  
+}
+/* Define uma tabela para exibir a tabuada */
+.content-tabuada table{
+
+    width: 100%;
+    border-collapse: collapse ;
+}
+/* Define o estilo das células (td) da tabela */
+.content-tabuada td{
+
+    padding: 10px;
+}
+/* Define um estilo diferente para as células na segunda coluna da tabela */
+.content-tabuada td{
+    padding: 10px;
+    border-top: 1px solid #dee2e6;
+}
+/* Define um estilo de fundo cinza claro para as linhas ímpares do corpo (tbody) da tabela */
+.content-tabuada tbody tr:nth-child(odd){
+
+    background-color: rgba(0, 0, 0,.05);
+}
+/* Define um estilo de fundo mais escuro quando o mouse passa por cima de uma linha do corpo da tabela */
+.content-tabuada tbody tr:hover{
+
+    background-color: rgba(0, 0, 0,.15);
+    cursor: pointer;
+
+}
+/* Define o estilo de um campo de entrada de texto com ID "valorA" */
+ #valorA{
+     width: 100px;
+     padding: 10px;
+ }
+
